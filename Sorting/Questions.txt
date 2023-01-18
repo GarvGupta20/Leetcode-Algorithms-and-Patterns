@@ -1,0 +1,2 @@
+ Arithmetic Subarrays : https://leetcode.com/problems/arithmetic-subarrays/description/
+Trick : think of sorting or see what we can do with the largets and smallest number

@@ -1,0 +1,38 @@
+                                                                                                                                             Matrix Rotation :
+
+simple trick : First of all check the direction of the matrix as clockwise or anticlockwise then try to check the degrees of rotation as it will matter
+Now when you have both of them you can see how matrix works 
+
+eg -  1 2 3
+       4 5  6
+       7 8 9 
+
+now we can observe if we have to rotate the matrix 90 deg in clockwise 
+
+1 ----> will come in place of 3
+3 ---> 9
+9 ----> 7
+7 -----> 1
+
+now will move to 2 4  6 8
+
+then both of them done we can observe that we are done with roattaion
+
+so how will we traverse the matrix 
+
+we are dealing with the matrix as it is an onion that is we go inside the layers as frame
+
+1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 2222222     1 
+1 2222222     1 
+1 2222222     1
+1 2222222    1       
+1 1 1 1 1 1 1 1 1 1 1 1
+
+
+now if we really observe this matrix we can see that we are coming down and up at same time so it will traverse 
+n/2 times only 
+
+for the inner loop we have to start with i as from which layer we are starting on then we move 
+to the swapping parts
+

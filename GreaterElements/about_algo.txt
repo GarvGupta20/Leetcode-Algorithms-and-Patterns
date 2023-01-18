@@ -4,12 +4,3 @@ This alorithm is a simple algorithm which has to keep track of a next greater el
 hence we require to look over  only those candidates that are important hence we use a stack because it let us insertion and removal at the expense of constant time and then on the basis of whais required for the 
 algorithm we add it to our stack and voila we have just reduced the time complexity of this algorithm to its bare minimum hnce proved to be very helfl and used in many Interview level Questions
 
-Leetcode Questions
-
-1. Next Greater Element I : https://leetcode.com/problems/next-greater-element-i/description/
-
-2. Daily Temperatures : https://leetcode.com/problems/daily-temperatures/
-
-3. Online Stock Span : https://leetcode.com/problems/online-stock-span/
-
-4. Next Greater Element II : https://leetcode.com/problems/next-greater-element-ii/description/
